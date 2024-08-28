@@ -109,3 +109,61 @@ In JavaScript, **non-primitive data types** (also known as reference types) are 
 You can find an example of primitive and non-primitive datatypes in JavaScript in the following file:
 
 [Primitives_Non-Primitives.js](https://github.com/muskanqed/Learning_JavaScript_From_Scratch/blob/main/Basics_Of_JavaScript/Primitives_Non-Primitives.js)
+
+
+# Operators and Expressions in JS
+
+## What is an Expression?
+
+A fragment of code that produces a value is called an expression. Every value written is an expression in JS.
+
+Example: `77`, `"Harry"`
+
+## Operators in JS:
+
+### Arithmetic Operators:
+
+- **Addition (`+`)**: Adds two numbers.
+- **Subtraction (`-`)**: Subtracts the right operand from the left operand.
+- **Multiplication (`*`)**: Multiplies two numbers.
+- **Exponentiation (`**`)**: Raises the left operand to the power of the right operand.
+- **Division (`/`)**: Divides the left operand by the right operand.
+- **Modulus (`%`)**: Returns the remainder of the division of the left operand by the right operand.
+- **Increment (`++`)**: Increases an integer by one.
+  1. **Prefix Increment (`++x`)**: Increments the value before it is used.
+  2. **Postfix Increment (`x++`)**: Increments the value after it is used.
+- **Decrement (`--`)**: Decreases an integer by one.
+  1. **Prefix Decrement (`--x`)**: Decrements the value before it is used.
+  2. **Postfix Decrement (`x--`)**: Decrements the value after it is used.
+
+### Assignment Operators:
+
+1. **`=`**: Gives the left-hand variable the value from the right.
+2. **`+=`**: Adds the right operand to the left operand and assigns the result to the left operand.
+3. **`*=`**: Multiplies the left operand by the right operand and assigns the result to the left operand.
+4. **`/=`**: Divides the left operand by the right operand and assigns the result to the left operand.
+5. **`%=`**: Takes the modulus using the left and right operands and assigns the result to the left operand.
+6. **`**=`**: Exponentiates the left operand by the right operand and assigns the result to the left operand.
+
+### Comparison Operators:
+
+1. **Equal (`==`)**: Compares two values for equality after converting them to a common type.
+2. **Strict Equal (`===`)**: Performs an equality comparison between two values without changing their types.
+3. **Not Equal (`!=`)**: After transforming two values into a common type, it compares them for inequality.
+4. **Strict Not Equal (`!==`)**: Compares two values for inequality without converting their types.
+5. **Greater Than (`>`)**: Checks if the left operand is greater than the right operand.
+6. **Greater Than or Equal (`>=`)**: Checks if the left operand is greater than or equal to the right operand.
+7. **Less Than (`<`)**: Checks if the left operand is less than the right operand.
+8. **Less Than or Equal (`<=`)**: Verifies whether the operands on the left and right are equal or less than one another.
+
+### Logical Operators:
+
+1. **Logical AND (`&&`)**: Returns `true` if both operands are `true`; otherwise, returns `false`.
+2. **Logical OR (`||`)**: Returns `true` if at least one of the operands is `true`; otherwise, returns `false`.
+3. **Logical NOT (`!`)**: Returns the inverse of the Boolean value.
+
+## Example Code
+
+You can find an example of primitive and non-primitive datatypes in JavaScript in the following file:
+
+[Operators_Expressions.js](https://github.com/muskanqed/Learning_JavaScript_From_Scratch/blob/main/Basics_Of_JavaScript/Primitives_Non-Primitives.js)

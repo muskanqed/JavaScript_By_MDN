@@ -25,4 +25,4 @@ const dictionary = {
   Blandishment: "Flattery intended to persuade",
   Calumny: "A false accusation of an offense",
 };
-console.log(dictionary);
+console.log(dictionary["Abrogate"]);
