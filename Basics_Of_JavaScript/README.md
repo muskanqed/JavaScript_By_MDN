@@ -166,4 +166,4 @@ Example: `77`, `"Harry"`
 
 You can find an example of primitive and non-primitive datatypes in JavaScript in the following file:
 
-[Operators_Expressions.js](https://github.com/muskanqed/Learning_JavaScript_From_Scratch/blob/main/Basics_Of_JavaScript/Primitives_Non-Primitives.js)
+[Operators_Expressions.js](https://github.com/muskanqed/Learning_JavaScript_From_Scratch/blob/main/Basics_Of_JavaScript/Operators_Expressions.js)
