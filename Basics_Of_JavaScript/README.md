@@ -11,20 +11,23 @@
 There are multiple ways to execute JavaScript:
 
 1. **In Your Browser:**
+
    - You can execute JavaScript directly in your browser.
    - Right-click on the browser (e.g., Chrome), select **Inspect**, and then navigate to the **Console** tab.
 
 2. **Using a Runtime Environment (e.g., Node.js):**
+
    - Install Node.js on your machine.
    - Create a `.js` file and run it using the following command:
-   
+
      ```bash
      node index.js
      ```
 
 3. **Embedding JavaScript in an HTML Document:**
+
    - You can embed JavaScript within an HTML document using the `<script>` tag:
-   
+
      ```html
      <script>
        // Your JavaScript code here
@@ -69,7 +72,7 @@ You can find an example of variable declaration and usage in JavaScript in the f
 
 ## Primitive Datatype
 
-In JavaScript, **primitive data types** are the most basic data types, representing single values. 
+In JavaScript, **primitive data types** are the most basic data types, representing single values.
 
 There are 7 primitive datatypes in JavaScript:
 
@@ -92,13 +95,16 @@ In JavaScript, **non-primitive data types** (also known as reference types) are 
 ### Key Non-Primitive Data Types in JavaScript
 
 1. **Object**:
+
    - An object is a collection of key-value pairs where each key is a string (or symbol) and the value can be any type, including other objects.
    - Objects can represent more complex data structures like arrays, functions, dates, and more.
 
 2. **Array**:
+
    - Arrays are special types of objects that are used to store ordered collections of values. These values can be of any type, and arrays are zero-indexed.
 
 3. **Function**:
+
    - In JavaScript, functions are also objects. A function can be assigned to a variable, passed as an argument, and returned from another function.
 
 4. **Date**:
@@ -109,7 +115,6 @@ In JavaScript, **non-primitive data types** (also known as reference types) are 
 You can find an example of primitive and non-primitive datatypes in JavaScript in the following file:
 
 [Primitives_Non-Primitives.js](https://github.com/muskanqed/Learning_JavaScript_From_Scratch/blob/main/Basics_Of_JavaScript/Primitives_Non-Primitives.js)
-
 
 # Operators and Expressions in JS
 
@@ -126,7 +131,7 @@ Example: `77`, `"Harry"`
 - **Addition (`+`)**: Adds two numbers.
 - **Subtraction (`-`)**: Subtracts the right operand from the left operand.
 - **Multiplication (`*`)**: Multiplies two numbers.
-- **Exponentiation (`**`)**: Raises the left operand to the power of the right operand.
+- **Exponentiation (`**`)\*\*: Raises the left operand to the power of the right operand.
 - **Division (`/`)**: Divides the left operand by the right operand.
 - **Modulus (`%`)**: Returns the remainder of the division of the left operand by the right operand.
 - **Increment (`++`)**: Increases an integer by one.
@@ -143,7 +148,7 @@ Example: `77`, `"Harry"`
 3. **`*=`**: Multiplies the left operand by the right operand and assigns the result to the left operand.
 4. **`/=`**: Divides the left operand by the right operand and assigns the result to the left operand.
 5. **`%=`**: Takes the modulus using the left and right operands and assigns the result to the left operand.
-6. **`**=`**: Exponentiates the left operand by the right operand and assigns the result to the left operand.
+6. **`**=`\*\*: Exponentiates the left operand by the right operand and assigns the result to the left operand.
 
 ### Comparison Operators:
 
@@ -167,3 +172,35 @@ Example: `77`, `"Harry"`
 You can find an example of primitive and non-primitive datatypes in JavaScript in the following file:
 
 [Operators_Expressions.js](https://github.com/muskanqed/Learning_JavaScript_From_Scratch/blob/main/Basics_Of_JavaScript/Operators_Expressions.js)
+
+# Conditional Expressions in JavaScript
+
+## Types of Conditional Expressions:
+
+- **`if` Statement**:
+  The `if` statement is the most basic conditional statement that executes a block of code only if a specified condition is `true`.
+- **`if...else` Statement**:
+  The `if...else` statement adds an alternative block of code to execute if the condition is `false`.
+- **`if...else if...else` Statement**:
+  The `if...else if...else` statement allows you to check multiple conditions. If the first condition is false, it checks the next one, and so on. The `else` block at the end is optional.
+- **`switch` Statement**:
+  The `switch` statement is used to perform different actions based on different possible values of a variable or expression. It's a cleaner alternative to multiple `if...else if` statements when checking the same expression or variable against different values.
+- **Ternary Operator (`? :`)**:
+  The ternary operator is a shorthand way of writing an `if...else` statement. It is often used for simple conditions.
+
+## Prompt:
+
+In JavaScript, a `prompt` is a built-in function available in web browsers that displays a dialog box to the user, asking for some text input. This function is typically used to get input directly from the user in a simple way.
+
+```javascript
+let userInput = prompt(message, defaultValue);
+```
+
+- **`message`** (optional): A string that is displayed to the user, explaining what input is expected.
+- **`defaultValue`** (optional): A string that appears in the input field as the default value.
+
+`Note` - Prompt is a Web browser feature, so you cannot use it in runtime like Node.js.
+
+The methods are shown in the Github repo link given below.
+
+[Conditional_Expressions.js](https://github.com/muskanqed/Learning_JavaScript_From_Scratch/blob/main/Basics_Of_JavaScript/Operators_Expressions.js)
