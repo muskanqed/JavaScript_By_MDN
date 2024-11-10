@@ -15,3 +15,6 @@ console.table([accountEmail,accountPassword,accountCity]);
 // Never use var as it introduces bugs in code and it is not scope oriented
 // var is not used any more but its still present in old code 
 
+
+// "C:\Users\muskan\OneDrive\Desktop\Learning_JavaScript_From_Scratch"
+
