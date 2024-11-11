@@ -25,3 +25,24 @@ let stringNumber = String(someNumber);
 console.log(stringNumber);
 console.log(typeof stringNumber); // string will be string even if there is number inside it
 
+
+/* ******************************* Operations*/
+
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+console.log(2 ** 3); //2^3 that is 8
+
+console.log(2 + "1"); //21
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+console.log(+true);
+// console.log(true+); // not allowed
+console.log(+""); // 0
+
+
+
