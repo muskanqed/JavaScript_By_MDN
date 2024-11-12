@@ -42,3 +42,34 @@ const myObj ={
 
 // Array return type is also object
 
+
+// ***************************************Memory**********************************************
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myMemory = "myMemory";
+let anotherMemory = myMemory;
+
+console.log(anotherMemory);
+
+anotherMemory = "myMemory2";
+
+console.log(anotherMemory);
+console.log(myMemory); 
+
+// This happens because of stack memory as it creates a copy of the value and stores it in another variable
+
+let userOne = {
+    username:"Muskan",
+    email:"muskan@gmail.com"
+}
+
+let userTwo = userOne;
+
+userTwo.username = "Mehak";
+
+console.log(userOne.username);
+console.log(userTwo.username);
+
+// The value updates as it point to the origin reference so the value is changed for both the variables
+// This happens because of heap memory as it does not create a copy of value but points to the original value
