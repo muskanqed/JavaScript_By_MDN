@@ -73,3 +73,11 @@ console.log(userTwo.username);
 
 // The value updates as it point to the origin reference so the value is changed for both the variables
 // This happens because of heap memory as it does not create a copy of value but points to the original value
+
+console.log(typeof null);        // "object"
+console.log(typeof 42);          // "number"
+console.log(typeof "hello");     // "string"
+console.log(typeof Symbol());    // "symbol"
+console.log(typeof 123n);        // "bigint"
+console.log(typeof true);        // "boolean"
+console.log(typeof undefined);   // "undefined"
